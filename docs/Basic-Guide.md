@@ -1,18 +1,16 @@
-# Basic Guide
+# 基礎指南
 
-This guide will show you how to use a pre-trained model in an example Unity
-environment (3D Ball) and show you how to train the model yourself.
+這個指南將會告訴你如何在Unity環境範例(3D Ball)中使用已經訓練過的模型，並且告訴你如何自己訓練出一個模型。
 
-If you are not familiar with the [Unity Engine](https://unity3d.com/unity), we
-highly recommend the [Roll-a-ball
-tutorial](https://unity3d.com/learn/tutorials/s/roll-ball-tutorial) to learn all
-the basic concepts of Unity.
+如果你還不熟悉[Unity引擎](https://unity3d.com/unity)，我們極度推薦[Roll-a-ball
+tutorial](https://unity3d.com/learn/tutorials/s/roll-ball-tutorial)來學習Unity的所有基礎觀念。
 
-## Setting up the ML-Agents Toolkit within Unity
+## 在Unity內配置 ML-Agents 工具
 
-In order to use the ML-Agents toolkit within Unity, you first need to change a few
-Unity settings. 
+為了在Unity中使用ML-Agents工具，首先你必須更改一些Unity設定。
 
+1.打開Unity
+2.在Projects
 1. Launch Unity
 2. On the Projects dialog, choose the **Open** option at the top of the window.
 3. Using the file dialog that opens, locate the `UnitySDK` folder
