@@ -9,8 +9,8 @@ tutorial](https://unity3d.com/learn/tutorials/s/roll-ball-tutorial)來學習Unit
 
 為了在Unity中使用ML-Agents工具，首先你必須更改一些Unity設定。
 
-1.打開Unity
-2.在Projects
+1. 打開Unity
+2. 在Projects
 
 1. Launch Unity
 2. On the Projects dialog, choose the **Open** option at the top of the window.
