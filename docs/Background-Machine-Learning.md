@@ -1,12 +1,8 @@
-# Background: Machine Learning
+# 背景: 機器學習
 
-Given that a number of users of the ML-Agents toolkit might not have a formal
-machine learning background, this page provides an overview to facilitate the
-understanding of the ML-Agents toolkit. However, we will not attempt to provide
-a thorough treatment of machine learning as there are fantastic resources
-online.
+考慮到一些ML-Agents工具的使用者可能沒有機器學習的背景，這個頁面提供一個幫助了解ML-Agents工具的概述。然而我們不試圖提供完整的機器學習論述，因為網路上有大量的資源。
 
-Machine learning, a branch of artificial intelligence, focuses on learning
+機器學習是人工智慧的一個分支， 關注在資料中的學習模式。focuses on learning
 patterns from data. The three main classes of machine learning algorithms
 include: unsupervised learning, supervised learning and reinforcement learning.
 Each class of algorithm learns from a different type of data. The following
