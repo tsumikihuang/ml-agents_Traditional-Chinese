@@ -5,8 +5,7 @@
 # Unity ML-Agents Toolkit (Beta)
 
 **Unity機器學習代理工具** (ML-Agents) 是一個開放原始碼的Unity插件
-，讓遊戲和模擬器一個可以訓練出聰明的代理人的環境。代理人可以透過簡單易用的Python API，用強化學習、模仿學習、神經進化(neuroevolution)等其他機器學習的方法被訓練。我們也提供(以TensorFlow為基礎上)實現最新的演算法，讓遊戲開發者們和有興趣的人們可以輕鬆訓練出聰明的代理人在2D、3D和VR/AR遊戲上。 These trained agents can be
-used for multiple purposes, including controlling NPC behavior (in a variety of
+，讓遊戲和模擬器一個可以訓練出聰明的代理人的環境。代理人可以透過簡單易用的Python API，用強化學習、模仿學習、神經進化(neuroevolution)等其他機器學習的方法被訓練。我們也提供(以TensorFlow為基礎上)實現最新的演算法，讓遊戲開發者們和有興趣的人們可以輕鬆訓練出聰明的代理人在2D、3D和VR/AR遊戲上。 這些訓練好的代理人可以被用在多種目的，包含控制NPC(非玩家角色)行為 (in a variety of
 settings such as multi-agent and adversarial), automated testing of game builds
 and evaluating different game design decisions pre-release. The ML-Agents
 toolkit is mutually beneficial for both game developers and AI researchers as it
