@@ -30,29 +30,31 @@
 * [使用顯示器](Feature-Monitor.md)
 * [使用可執行的環境](Learning-Environment-Executable.md)
 
-## Training
+## 訓練
 
-* [Training ML-Agents](Training-ML-Agents.md)
-* [Training with Proximal Policy Optimization](Training-PPO.md)
-* [Training with Curriculum Learning](Training-Curriculum-Learning.md)
-* [Training with Imitation Learning](Training-Imitation-Learning.md)
-* [Training with LSTM](Feature-Memory.md)
-* [Training on the Cloud with Amazon Web Services](Training-on-Amazon-Web-Service.md)
-* [Training on the Cloud with Microsoft Azure](Training-on-Microsoft-Azure.md)
-* [Using TensorBoard to Observe Training](Using-Tensorboard.md)
+* [訓練 ML-Agents](Training-ML-Agents.md)
+* [訓練-使用Proximal Policy Optimization近端策略優化(PPO)](Training-PPO.md)
+* [訓練-使用Curriculum Learning課程學習](Training-Curriculum-Learning.md)
+* [訓練-使用Imitation Learning模仿學習](Training-Imitation-Learning.md)
+* [訓練-使用LSTM長短期記憶](Feature-Memory.md)
+* [雲端上訓練-使用Amazon Web Services](Training-on-Amazon-Web-Service.md)
+* [雲端上訓練-使用Microsoft Azure](Training-on-Microsoft-Azure.md)
+* [使用TensorBoard觀察Training](Using-Tensorboard.md)
 
-## Inference
-* [TensorFlowSharp in Unity (Experimental)](Using-TensorFlow-Sharp-in-Unity.md)
+## 推論Inference
+//速度更快、效率更高的神經網路會按照訓練過的內容，猜想新資料的走向。在人工智慧圈的詞彙裡，這稱為「inference」（推論）
+//TensorFlowSharp是Tensorflow的C#語言表
+* [TensorFlowSharp in Unity (試驗)](Using-TensorFlow-Sharp-in-Unity.md)
 
-## Help
+## 幫助
 
-* [Migrating from earlier versions of ML-Agents](Migrating.md)
-* [Frequently Asked Questions](FAQ.md)
-* [ML-Agents Glossary](Glossary.md)
-* [Limitations](Limitations.md)
+* [ML-Agents早期版本遷移](Migrating.md)
+* [常見問題](FAQ.md)
+* [ML-Agents詞彙表](Glossary.md)
+* [限制](Limitations.md)
 
-## API Docs
+## API文件
 
 * [API Reference](API-Reference.md)
-* [How to use the Python API](Python-API.md)
-* [Wrapping Learning Environment as a Gym](../gym-unity/README.md)
+* [如何使用Python API](Python-API.md)
+* [打包學習環境](../gym-unity/README.md)
