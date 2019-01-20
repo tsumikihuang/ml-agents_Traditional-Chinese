@@ -8,7 +8,7 @@
 error CS1061: Type `System.Text.StringBuilder' does not contain a definition for `Clear' and no extension method `Clear' of type `System.Text.StringBuilder' could be found. Are you missing an assembly reference?
 ```
 
-這是因為.NET 3.5不支持StringBuilder類別的方法Clear()，解決方法參考[在Unity內設置ML-Agents工具](Installation.md#setting-up-ml-agent-within-unity)。
+這是因為.NET 3.5不支持StringBuilder類別的Clear()方法，解決方法參考[在Unity內設置ML-Agents工具](Installation.md#setting-up-ml-agent-within-unity)。
 
 ## TensorFlowSharp flag not turned on
 
