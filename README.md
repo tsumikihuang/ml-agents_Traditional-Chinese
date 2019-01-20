@@ -23,17 +23,17 @@
 
 ## 文件
 
-* 安裝流程、常用指令...更多資訊，請看我們的[文件首頁](docs/Readme.md).
+* 安裝流程、常用指令...更多資訊，請看我們的[文件首頁](docs/Readme.md)。
 * 如果你是一個對於討論AI平台有興趣的研究員，請看預先印製的[Unity和ML-Agents工具參考文件](https://arxiv.org/abs/1809.02627)，也可以看下方說明觀覽此文件。
-* 如果你是使用早期ML-Agents工具的版本，我們強烈建議看[早期版本遷移指南](docs/Migrating.md)
+* 如果你是使用早期ML-Agents工具的版本，我們強烈建議看[早期版本遷移指南](docs/Migrating.md)。
 
-## Additional Resources
+## 額外補充資源
 
-We have published a series of blog posts that are relevant for ML-Agents:
+我們有發佈一系列ML-Agents相關的部落格文章:
 
-* Overviewing reinforcement learning concepts
+* 增強學習概念概觀
   ([multi-armed bandit](https://blogs.unity3d.com/2017/06/26/unity-ai-themed-blog-entries/)
-  and
+  和
   [Q-learning](https://blogs.unity3d.com/2017/08/22/unity-ai-reinforcement-learning-with-q-learning/))
 * [Using Machine Learning Agents in a real game: a beginner’s guide](https://blogs.unity3d.com/2017/12/11/using-machine-learning-agents-in-a-real-game-a-beginners-guide/)
 * [Post](https://blogs.unity3d.com/2018/02/28/introducing-the-winners-of-the-first-ml-agents-challenge/)
@@ -42,22 +42,20 @@ We have published a series of blog posts that are relevant for ML-Agents:
 * [Post](https://blogs.unity3d.com/2018/01/23/designing-safer-cities-through-simulations/)
   overviewing how Unity can be leveraged as a simulator to design safer cities.
 
-In addition to our own documentation, here are some additional, relevant articles:
+除了我們自己的文件外，這裡有一些其他額外的相關文章:
 
 * [Unity AI - Unity 3D Artificial Intelligence](https://www.youtube.com/watch?v=bqsfkGbBU6k)
 * [A Game Developer Learns Machine Learning](https://mikecann.co.uk/machine-learning/a-game-developer-learns-machine-learning-intent/)
 * [Explore Unity Technologies ML-Agents Exclusively on Intel Architecture](https://software.intel.com/en-us/articles/explore-unity-technologies-ml-agents-exclusively-on-intel-architecture)
 
-## Community and Feedback
+## 社區和回饋
 
-The ML-Agents toolkit is an open-source project and we encourage and welcome
-contributions. If you wish to contribute, be sure to review our
-[contribution guidelines](CONTRIBUTING.md) and
-[code of conduct](CODE_OF_CONDUCT.md).
+ML-Agents工具是一個開源專案，我們鼓勵並歡迎各位的貢獻。如果你想要貢獻，請確認有讀過我們的
+[貢獻準則](CONTRIBUTING.md) and
+[行為準則](CODE_OF_CONDUCT.md).
 
-If you run into any problems using the ML-Agents toolkit,
-[submit an issue](https://github.com/Unity-Technologies/ml-agents/issues) and
-make sure to include as much detail as possible.
+如果你使用ML-Agents工具有遇到任何問題可以
+[提交問題](https://github.com/Unity-Technologies/ml-agents/issues) 並且確認盡可能地包含大量的細節。
 
 Your opinion matters a great deal to us. Only by hearing your thoughts on the Unity ML-Agents Toolkit can we continue to improve and grow. Please take a few minutes to [let us know about it](https://github.com/Unity-Technologies/ml-agents/issues/1454). 
 
