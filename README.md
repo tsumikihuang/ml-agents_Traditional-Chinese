@@ -2,7 +2,7 @@
 
 <img src="docs/images/image-banner.png" align="middle" width="3000"/>
 
-# Unity ML-Agents Toolkit (Beta)
+# Unity ML-Agents 工具 (Beta測試版本)
 
 **Unity機器學習代理工具** (ML-Agents) 是一個開放原始碼的Unity插件
 ，讓遊戲和模擬器一個可以訓練出聰明的代理人的環境。代理人可以透過簡單易用的Python API，用強化學習、模仿學習、神經進化(neuroevolution)等其他機器學習的方法被訓練。我們也提供(以TensorFlow為基礎上)實現最新的演算法，讓遊戲開發者們和有興趣的人們可以輕鬆訓練出聰明的代理人在2D、3D和VR/AR遊戲上。 這些訓練好的代理人可以被用在多種目的，包含控制NPC(非玩家角色)行為 (像是multi-agent多智能體和adversarial對抗...等多樣的設置) 、自動測試遊戲建置和預先發布評估不同遊戲設計決策。ML-Agents工具對於同事遊戲開發者和AI研究者是互利共贏的，因為它提供一個中央平台利於AI在Unity豐富的環境上運算，並且使之無障礙地擴展到更廣闊的研究和遊戲開發社群。
@@ -51,17 +51,16 @@
 ## 社區和回饋
 
 ML-Agents工具是一個開源專案，我們鼓勵並歡迎各位的貢獻。如果你想要貢獻，請確認有讀過我們的
-[貢獻準則](CONTRIBUTING.md) and
+[貢獻準則](CONTRIBUTING.md) 和
 [行為準則](CODE_OF_CONDUCT.md).
 
 如果你使用ML-Agents工具有遇到任何問題可以
 [提交問題](https://github.com/Unity-Technologies/ml-agents/issues) 並且確認盡可能地包含大量的細節。
 
-Your opinion matters a great deal to us. Only by hearing your thoughts on the Unity ML-Agents Toolkit can we continue to improve and grow. Please take a few minutes to [let us know about it](https://github.com/Unity-Technologies/ml-agents/issues/1454). 
+你的意見對我們非常重要，聆聽你對於ML-Agents的想法可以讓我們持續進步和成長。請花一些時間來[讓我們知道](https://github.com/Unity-Technologies/ml-agents/issues/1454)。
 
 
-For any other questions or feedback, connect directly with the ML-Agents
-team at ml-agents@unity3d.com. 
+有任何其他問題或回饋，請立即聯絡ML-Agent團隊 ml-agents@unity3d.com 
 
 ## Translations
 
