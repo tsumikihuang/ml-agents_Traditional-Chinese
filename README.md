@@ -36,11 +36,11 @@
   和
   [Q-learning](https://blogs.unity3d.com/2017/08/22/unity-ai-reinforcement-learning-with-q-learning/))
 * [Using Machine Learning Agents in a real game: a beginner’s guide](https://blogs.unity3d.com/2017/12/11/using-machine-learning-agents-in-a-real-game-a-beginners-guide/)
-* [Post](https://blogs.unity3d.com/2018/02/28/introducing-the-winners-of-the-first-ml-agents-challenge/)
-  announcing the winners of our
-  [first ML-Agents Challenge](https://connect.unity.com/challenges/ml-agents-1)
-* [Post](https://blogs.unity3d.com/2018/01/23/designing-safer-cities-through-simulations/)
-  overviewing how Unity can be leveraged as a simulator to design safer cities.
+* [文章](https://blogs.unity3d.com/2018/02/28/introducing-the-winners-of-the-first-ml-agents-challenge/)
+  宣布我們
+  [第一個ML-Agents挑戰](https://connect.unity.com/challenges/ml-agents-1)的贏家
+* [文章](https://blogs.unity3d.com/2018/01/23/designing-safer-cities-through-simulations/)
+  概觀為何Unity作為一個模擬器可以以小搏大設計出一個更安全的城市。
 
 除了我們自己的文件外，這裡有一些其他額外的相關文章:
 
@@ -62,23 +62,18 @@ ML-Agents工具是一個開源專案，我們鼓勵並歡迎各位的貢獻。�
 
 有任何其他問題或回饋，請立即聯絡ML-Agent團隊 ml-agents@unity3d.com 
 
-## Translations
+## 翻譯
 
-To make the Unity ML-Agents toolkit accessible to the global research and
-Unity developer communities, we're attempting to create and maintain
-translations of our documentation. We've started with translating a subset
-of the documentation to one language (Chinese), but we hope to continue
-translating more pages and to other languages. Consequently,
-we welcome any enhancements and improvements from the community.
+為了使Unity ML-Agents工具無障礙地給全世界的研究和Unity開發者社群，我們新增並維護翻譯的文件。我們已經開始翻譯一個語言(簡體中文)，但我們希望持續翻譯更多文章和其他語言。因此，我們歡迎社群有任何加強和改進。
 
-* [Chinese](docs/localized/zh-CN/)
+* [簡體中文](docs/localized/zh-CN/)
 
-## License
+## 許可證
 
 [Apache License 2.0](LICENSE)
 
-## Citation
+## 引用
 
-If you use Unity or the ML-Agents Toolkit to conduct research, we ask that you cite the following paper as a reference:
+如果你使用Unity或ML-Agents工具進行研究，我們要求你引用以下文字當作參考:
 
 Juliani, A., Berges, V., Vckay, E., Gao, Y., Henry, H., Mattar, M., Lange, D. (2018). Unity: A General Platform for Intelligent Agents. *arXiv preprint arXiv:1809.02627.* https://github.com/Unity-Technologies/ml-agents.
