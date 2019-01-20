@@ -41,8 +41,8 @@
 * [雲端上訓練-使用Microsoft Azure](Training-on-Microsoft-Azure.md)
 * [使用TensorBoard觀察Training](Using-Tensorboard.md)
 
-## 推論Inference
-//速度更快、效率更高的神經網路會按照訓練過的內容，猜想新資料的走向。在人工智慧圈的詞彙裡，這稱為「inference」（推論）<br/>
+## 推論
+//速度更快、效率更高的神經網路會按照訓練過的內容，猜想新資料的走向。在人工智慧圈的詞彙稱為「inference」（推論）<br/>
 //TensorFlowSharp是Tensorflow的C#語言表
 * [TensorFlowSharp in Unity (試驗)](Using-TensorFlow-Sharp-in-Unity.md)
 
