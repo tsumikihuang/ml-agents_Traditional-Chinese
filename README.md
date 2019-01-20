@@ -5,33 +5,27 @@
 # Unity ML-Agents Toolkit (Beta)
 
 **Unity機器學習代理工具** (ML-Agents) 是一個開放原始碼的Unity插件
-，讓遊戲和模擬器一個可以訓練出聰明的代理人的環境。代理人可以透過簡單易用的Python API，用強化學習、模仿學習、神經進化(neuroevolution)等其他機器學習的方法被訓練。我們也提供(以TensorFlow為基礎上)實現最新的演算法，讓遊戲開發者們和有興趣的人們可以輕鬆訓練出聰明的代理人在2D、3D和VR/AR遊戲上。 這些訓練好的代理人可以被用在多種目的，包含控制NPC(非玩家角色)行為 (像是多智能體(multi-agent)和對抗(adversarial)...等多樣的設置) 、自動測試遊戲建置和預先發布評估不同遊戲設計決策。 The ML-Agents
-toolkit is mutually beneficial for both game developers and AI researchers as it
-provides a central platform where advances in AI can be evaluated on Unity’s
-rich environments and then made accessible to the wider research and game
-developer communities.
+，讓遊戲和模擬器一個可以訓練出聰明的代理人的環境。代理人可以透過簡單易用的Python API，用強化學習、模仿學習、神經進化(neuroevolution)等其他機器學習的方法被訓練。我們也提供(以TensorFlow為基礎上)實現最新的演算法，讓遊戲開發者們和有興趣的人們可以輕鬆訓練出聰明的代理人在2D、3D和VR/AR遊戲上。 這些訓練好的代理人可以被用在多種目的，包含控制NPC(非玩家角色)行為 (像是multi-agent多智能體和adversarial對抗...等多樣的設置) 、自動測試遊戲建置和預先發布評估不同遊戲設計決策。ML-Agents工具對於同事遊戲開發者和AI研究者是互利共贏的，因為它提供一個中央平台利於AI在Unity豐富的環境上運算，並且使之無障礙地擴展到更廣闊的研究和遊戲開發社群。
 
-## Features
+## 特色
 
-* Unity environment control from Python
-* 10+ sample Unity environments
-* Support for multiple environment configurations and training scenarios
-* Train memory-enhanced agents using deep reinforcement learning
-* Easily definable Curriculum Learning scenarios
-* Broadcasting of agent behavior for supervised learning
-* Built-in support for Imitation Learning
-* Flexible agent control with On Demand Decision Making
-* Visualizing network outputs within the environment
-* Simplified set-up with Docker
-* Wrap learning environments as a gym
+* 從Python控制Unity環境
+* 10多個Unity環境範例
+* 支持多種環境配置和訓練場景
+* 用深度強化學習訓練記憶增強代理
+* 簡單可定義的課程式學習場景
+* 廣播代理行為來達成監督式學習
+* 內建資源給模仿學習
+* 決策時彈性地控制代理人
+* 在環境中視覺化網路輸出
+* 簡單地使用Docker安裝
+* 將學習環境打包成像是一個健身房
 
-## Documentation
+## 文件
 
-* For more information, in addition to installation and usage instructions, see
-  our [documentation home](docs/Readme.md).
-* If you are a researcher interested in a discussion of Unity as an AI platform, see a pre-print of our [reference paper on Unity and the ML-Agents Toolkit](https://arxiv.org/abs/1809.02627). Also, see below for instructions on citing this paper.
-* If you have used an earlier version of the ML-Agents toolkit, we strongly
-  recommend our [guide on migrating from earlier versions](docs/Migrating.md).
+* 安裝流程、常用指令...更多資訊，請看我們的[文件首頁](docs/Readme.md).
+* 如果你是一個對於討論AI平台有興趣的研究員，請看預先印製的[Unity和ML-Agents工具參考文件](https://arxiv.org/abs/1809.02627)，也可以看下方說明觀覽此文件。
+* 如果你是使用早期ML-Agents工具的版本，我們強烈建議看[早期版本遷移指南](docs/Migrating.md)
 
 ## Additional Resources
 
