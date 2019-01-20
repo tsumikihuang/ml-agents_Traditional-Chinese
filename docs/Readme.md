@@ -1,34 +1,34 @@
-# Unity ML-Agents Toolkit Documentation
+# Unity ML-Agents工具文件
 
-## Installation & Set-up
+## 安裝 & 建立
 
-* [Installation](Installation.md)
-  * [Background: Jupyter Notebooks](Background-Jupyter.md)
-  * [Docker Set-up](Using-Docker.md)
-* [Basic Guide](Basic-Guide.md)
+* [安裝](Installation.md)
+  * [背景: Jupyter Notebooks](Background-Jupyter.md)
+  * [Docker建立](Using-Docker.md)
+* [基礎指南](Basic-Guide.md)
 
-## Getting Started
+## 開始
 
-* [ML-Agents Toolkit Overview](ML-Agents-Overview.md)
-  * [Background: Unity](Background-Unity.md)
-  * [Background: Machine Learning](Background-Machine-Learning.md)
-  * [Background: TensorFlow](Background-TensorFlow.md)
-* [Getting Started with the 3D Balance Ball Environment](Getting-Started-with-Balance-Ball.md)
-* [Example Environments](Learning-Environment-Examples.md)
+* [ML-Agents工具概觀](ML-Agents-Overview.md)
+  * [背景: Unity](Background-Unity.md)
+  * [背景: 機器學習](Background-Machine-Learning.md)
+  * [背景: TensorFlow](Background-TensorFlow.md)
+* [從3D Balance Ball範例環境開始](Getting-Started-with-Balance-Ball.md)
+* [學習環境範例](Learning-Environment-Examples.md)
 
-## Creating Learning Environments
+## 創造學習環境
 
-* [Making a New Learning Environment](Learning-Environment-Create-New.md)
-* [Designing a Learning Environment](Learning-Environment-Design.md)
+* [製造新的學習環境](Learning-Environment-Create-New.md)
+* [設計一個學習環境](Learning-Environment-Design.md)
   * [Agents](Learning-Environment-Design-Agents.md)
   * [Academy](Learning-Environment-Design-Academy.md)
   * [Brains](Learning-Environment-Design-Brains.md):
     [Player](Learning-Environment-Design-Player-Brains.md),
     [Heuristic](Learning-Environment-Design-Heuristic-Brains.md),
     [Learning](Learning-Environment-Design-Learning-Brains.md)
-* [Learning Environment Best Practices](Learning-Environment-Best-Practices.md)
-* [Using the Monitor](Feature-Monitor.md)
-* [Using an Executable Environment](Learning-Environment-Executable.md)
+* [學習環境最佳實踐](Learning-Environment-Best-Practices.md)
+* [使用顯示器](Feature-Monitor.md)
+* [使用可執行的環境](Learning-Environment-Executable.md)
 
 ## Training
 
