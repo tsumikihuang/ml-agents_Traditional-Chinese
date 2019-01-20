@@ -1,55 +1,45 @@
-# Frequently Asked Questions
+# 常見問題
 
-## Scripting Runtime Environment not setup correctly
+## 腳本運行環境未正確建立
 
-If you haven't switched your scripting runtime version from .NET 3.5 to .NET 4.6
-or .NET 4.x, you will see such error message:
+如果你還沒有將你的腳本運行版本從.NET 3.5切換到.NET 4.6或.NET 4.x，你會看到這個錯誤訊息:
 
 ```console
 error CS1061: Type `System.Text.StringBuilder' does not contain a definition for `Clear' and no extension method `Clear' of type `System.Text.StringBuilder' could be found. Are you missing an assembly reference?
 ```
 
-This is because .NET 3.5 doesn't support method Clear() for StringBuilder, refer
-to [Setting Up The ML-Agents Toolkit Within
-Unity](Installation.md#setting-up-ml-agent-within-unity) for solution.
+這是因為.NET 3.5不支持StringBuilder類別的方法Clear()，解決方法參考[在Unity內設置ML-Agents工具](Installation.md#setting-up-ml-agent-within-unity)。
 
 ## TensorFlowSharp flag not turned on
 
-If you have already imported the TensorFlowSharp plugin, but haven't set
-ENABLE_TENSORFLOW flag for your scripting define symbols, you will see the
-following error message:
+如果你已經匯入TensorFlowSharp插件，但還沒在腳本定義符號中將ENABLE_TENSORFLOW選項打勾，你將會看到下面的錯誤訊息:
 
 ```console
 UnityAgentsException: The brain 3DBallLearning was set to inference mode but the Tensorflow library is not present in the Unity project.
 ```
- This error message occurs because the TensorFlowSharp plugin won't be used
-without the ENABLE_TENSORFLOW flag, refer to [Setting Up The ML-Agents Toolkit
-Within Unity](Installation.md#setting-up-ml-agent-within-unity) for solution.
+這個錯誤訊息的出現是因為當選項ENABLE_TENSORFLOW未被選取，TensorFlowSharp插件將無法被使用，解決方法參考[在Unity內設置ML-Agents工具](Installation.md#setting-up-ml-agent-within-unity)。
 
-## Environment Permission Error
+## 環境許可錯誤
 
-If you directly import your Unity environment without building it in the
-editor, you might need to give it additional permissions to execute it.
+如果你在編輯器中直接匯入你的Unity環境，並沒有建置它，你可能需要給他額外的許可來執行它。
 
-If you receive such a permission error on macOS, run:
+如果你在macOS接收到許可錯誤，執行:
 
 ```sh
 chmod -R 755 *.app
 ```
 
-or on Linux:
+或是在Linux:
 
 ```sh
 chmod -R 755 *.x86_64
 ```
 
-On Windows, you can find
-[instructions](https://technet.microsoft.com/en-us/library/cc754344(v=ws.11).aspx).
+在Windows，你可以在[說明](https://technet.microsoft.com/en-us/library/cc754344(v=ws.11).aspx)中找到解決方法
 
-## Environment Connection Timeout
+## 環境連接超時
 
-If you are able to launch the environment from `UnityEnvironment` but then
-receive a timeout error like this:
+如果你能從`UnityEnvironment`啟動環境，但收到超時錯誤像這個:
 
 ```
 UnityAgentsException: The Communicator was unable to connect. Please make sure the External process is ready to accept communication with Unity.
