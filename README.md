@@ -44,9 +44,9 @@
 
 除了我們自己的文件外，這裡有一些其他額外的相關文章:
 
-* [Unity AI - Unity 3D Artificial Intelligence](https://www.youtube.com/watch?v=bqsfkGbBU6k)
-* [A Game Developer Learns Machine Learning](https://mikecann.co.uk/machine-learning/a-game-developer-learns-machine-learning-intent/)
-* [Explore Unity Technologies ML-Agents Exclusively on Intel Architecture](https://software.intel.com/en-us/articles/explore-unity-technologies-ml-agents-exclusively-on-intel-architecture)
+* [Unity AI - Unity 3D人工智慧](https://www.youtube.com/watch?v=bqsfkGbBU6k)
+* [一個遊戲開發者學習機器學習](https://mikecann.co.uk/machine-learning/a-game-developer-learns-machine-learning-intent/)
+* [在Intel架構上專門探討Unity技術ML-Agents](https://software.intel.com/en-us/articles/explore-unity-technologies-ml-agents-exclusively-on-intel-architecture)
 
 ## 社區和回饋
 
@@ -64,7 +64,7 @@ ML-Agents工具是一個開源專案，我們鼓勵並歡迎各位的貢獻。�
 
 ## 翻譯
 
-為了使Unity ML-Agents工具無障礙地給全世界的研究和Unity開發者社群，我們新增並維護翻譯的文件。我們已經開始翻譯一個語言(簡體中文)，但我們希望持續翻譯更多文章和其他語言。因此，我們歡迎社群有任何加強和改進。
+為了使Unity ML-Agents工具無障礙地給全世界的研究和Unity開發者社群，我們新增並維護翻譯的文件。目前已經翻譯好一個語言(簡體中文)，希望持續翻譯更多文章和其他語言，也歡迎各社群有任何加強和改進。
 
 * [簡體中文](docs/localized/zh-CN/)
 
