@@ -45,7 +45,7 @@ chmod -R 755 *.x86_64
 UnityAgentsException: The Communicator was unable to connect. Please make sure the External process is ready to accept communication with Unity.
 ```
 
-There may be a number of possible causes:
+有幾個可能的原因:
 
 * _Cause_: There may be no LearningBrain with `Control` option checked in the
   `Broadcast Hub` of the Academy. In this case, the environment will not attempt
