@@ -2,29 +2,16 @@
 
 考慮到一些ML-Agents工具的使用者可能沒有機器學習的背景，這個頁面提供一個幫助了解ML-Agents工具的概述。然而我們不試圖提供完整的機器學習論述，因為網路上有大量的資源。
 
-機器學習是人工智慧的一個分支， 關注在資料中的學習模式。focuses on learning
-patterns from data. The three main classes of machine learning algorithms
-include: unsupervised learning, supervised learning and reinforcement learning.
-Each class of algorithm learns from a different type of data. The following
-paragraphs provide an overview for each of these classes of machine learning, as
-well as introductory examples.
+機器學習是人工智慧的一個分支， 關注在資料中的學習模式。機器學習演算法的三個主要類型包括: 非監督式學習、監督式學習和強化學習。
+每一類型的演算法學習不同種的資料，下方段落提供這三種演算法的概觀，並舉幾個範例。
 
-## Unsupervised Learning
+## 非監督式學習
 
-The goal of [unsupervised
-learning](https://en.wikipedia.org/wiki/Unsupervised_learning) is to group or
-cluster similar items in a data set. For example, consider the players of a
-game. We may want to group the players depending on how engaged they are with
-the game. This would enable us to target different groups (e.g. for
-highly-engaged players we might invite them to be beta testers for new features,
-while for unengaged players we might email them helpful tutorials). Say that we
-wish to split our players into two groups. We would first define basic
-attributes of the players, such as the number of hours played, total money spent
-on in-app purchases and number of levels completed. We can then feed this data
-set (three attributes for every player) to an unsupervised learning algorithm
-where we specify the number of groups to be two. The algorithm would then split
-the data set of players into two groups where the players within each group
-would be similar to each other. Given the attributes we used to describe each
+[非監督式學習](https://en.wikipedia.org/wiki/Unsupervised_learning)的目標是分類或分群資料集中相同的項目。
+舉例，考量一個遊戲的玩家們，我們想基於玩家有多熱衷於這個遊戲，進而將玩家們分群。
+這可以使我們針對不同族群的玩家們(像是，對於高度熱衷的玩家們，可以邀請他們在未來成為測試者。對於不熱衷的玩家們，可以郵件給他們有幫助的教學)。 若依照上述的舉例，我們希望可以把玩家分成兩種族群. 首先定義玩家的基礎特性，像是玩幾個小時、總共在app內消費多少錢和等級達到多少。
+餵這些資料集(每個玩家三個特性)給非監督式學習演算法，並指定分成兩群。這個演算法將會區分資料集中相似的玩家為兩個族群。
+Given the attributes we used to describe each
 player, in this case, the output would be a split of all the players into two
 groups, where one group would semantically represent the engaged players and the
 second group would semantically represent the unengaged players.
